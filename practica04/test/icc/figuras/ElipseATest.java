@@ -16,7 +16,7 @@ import icc.RandomStringGenerator;
  */
 public class ElipseATest extends Calificador {
 
-    private static final double LIMIT_RANGE = 0.01;
+    private static final double LIMIT_RANGE = 0.001;
 
     public static boolean almostEquals(double d1, double d2) {
         if (d2 > d1) {      // d1 = 5, d2 = 7

@@ -1,5 +1,5 @@
 Testsuite: icc.figuras.ElipseZPerimeterTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.323 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.511 sec
 ------------- Standard Output ---------------
 elipsePerimeterTest:
 	Revisa que perimetro del elipse encaje con el perimetro esperado.
@@ -11,4 +11,4 @@ elipsePerimeterTest:
 ===========================================================================
 ------------- ---------------- ---------------
 
-Testcase: elipsePerimeterTest took 0.145 sec
+Testcase: elipsePerimeterTest took 0.203 sec

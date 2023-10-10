@@ -1,5 +1,5 @@
 Testsuite: icc.figuras.ElipseATest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.365 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.543 sec
 ------------- Standard Output ---------------
 elipseAreaTest:
 	Revisa que area del elipse encaje con el area esperada.
@@ -19,6 +19,6 @@ elipseMenorTest:
 ===========================================================================
 ------------- ---------------- ---------------
 
-Testcase: elipseAreaTest took 0.163 sec
+Testcase: elipseAreaTest took 0.245 sec
 Testcase: elipseMayorTest took 0.002 sec
 Testcase: elipseMenorTest took 0.001 sec

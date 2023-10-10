@@ -16,7 +16,7 @@ import icc.RandomStringGenerator;
  */
 public class ElipseBCircleTest extends Calificador {
 
-    private static final double LIMIT_RANGE = 0.01;
+    private static final double LIMIT_RANGE = 0.001;
 
     public static boolean almostEquals(double d1, double d2) {
         if (d2 > d1) {      // d1 = 5, d2 = 7
@@ -43,7 +43,15 @@ public class ElipseBCircleTest extends Calificador {
 
         c = new Circulo(m / 2);
         assertTrue(e.encaja(c));
-        addUp(1.0);
+        addUp(0.5);
+
+        c = new Circulo((m / 2) - (LIMIT_RANGE / 3.0));
+        assertTrue(e.encaja(c));
+        addUp(0.25);
+
+        c = new Circulo((m / 2) + (LIMIT_RANGE / 3.0));
+        assertTrue(e.encaja(c));
+        addUp(0.25);
 
         passed();
     }

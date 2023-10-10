@@ -1,5 +1,5 @@
 Testsuite: icc.figuras.ElipseBCircleTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.569 sec
 ------------- Standard Output ---------------
 elipsePerfectTest:
 	Revisa que el circulo encaje perfectamente en un elipse.
@@ -17,6 +17,6 @@ elipseMoreTest:
 ===========================================================================
 ------------- ---------------- ---------------
 
-Testcase: elipsePerfectTest took 0.106 sec
-Testcase: elipseLessTest took 0.007 sec
-Testcase: elipseMoreTest took 0.007 sec
+Testcase: elipsePerfectTest took 0.206 sec
+Testcase: elipseLessTest took 0.038 sec
+Testcase: elipseMoreTest took 0.044 sec
